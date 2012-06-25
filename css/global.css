@@ -1,0 +1,128 @@
+@charset "ISO-8859-1";
+
+/*	Conteneurs globaux	*/
+body{
+	background: url(../pic/bckg2.jpg);
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+}
+div#site{
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*	Bannière du site	*/
+div#banner{
+	background-color: #0C243E;
+	margin-bottom: 20px;
+	height: 92px;
+}
+div#banner img#text {
+	float: right;
+}
+div#banner img#logo {
+	border: solid 1px black;
+}
+
+
+/*	Menus de navigation	*/
+div#menus{
+	float: left;
+}
+div#menus dl{
+	border: double 4px #695748;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	background: #EED498;
+	width: 130px;
+	padding: 4px;
+	background: url(../pic/menu/bckg4.jpg);
+}
+div#menus dl dt{
+	color: white;
+	font-size: 0.8em;
+	font-style: italic;
+	background: url(../pic/menu/section_bckg.png);
+	margin-bottom: 4px;
+	padding: 2px;
+}
+div#menus dl dd{
+	font-size: 0.8em;
+	padding: 2px;
+	margin: 0px;
+}
+div#menus dl dd ul{
+	margin: 0px;
+	padding: 0px 0px 0px 16px;
+}
+div#menus dl dd ul li{
+	list-style-image: url(../pic/menu/puce.png);
+	margin-bottom: 2px;
+}
+div#menus dl dd ul li:hover{
+	list-style-image: url(../pic/menu/puce_hover.png);
+}
+div#menus dl dd ul li a{
+	color: black;
+	text-decoration: none;
+}
+div#menus dl dd ul li a:hover{
+	text-decoration: underline;
+}
+div#menus dl dd ul li input{
+	font-size: 0.9em;
+	width: 100px;
+	background-color : transparent;
+}
+
+
+/*	Contenu des pages	*/
+div#main{
+	width: 780px;
+	border: double 4px #695748;
+	background: #CFC295 url(../pic/menu/bckg4.jpg);
+	float: right;
+	margin-bottom: 20px;
+	clear: none;
+}
+div#main img#decor{
+	margin-top: -100px;
+	margin-right: -46px;
+	float:right;
+}
+div#main ul#tree{
+	margin: 2px 2px 20px 2px;
+	padding-left: 4px;
+	list-style-position: inside;
+	list-style-image: url(../pic/menu/tree_separator.png);
+	background-image: url(../pic/menu/section_bckg.png);
+	vertical-align:middle;
+	height: 20px;
+}
+div#main ul#tree li{
+	float: left;
+	color: white;
+	font-size: 0.8em;
+	margin-right: 10px;
+	margin-top: 1px;
+}
+div#main ul#tree li a{
+	text-decoration: none;
+	color: white;
+}
+div#main ul#tree li a:hover{
+	text-decoration: underline;
+}
+div#main div#content{
+	min-height: 650px;
+	width: 100%;	/*	Nécessaire sous IE7	*/
+}
+div#main p#footer{
+	text-align: center;
+	font-size: 0.7em;
+	margin: 0px;
+}

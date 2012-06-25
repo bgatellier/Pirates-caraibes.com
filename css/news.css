@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+div#main div#content div.news {
+	width: 90%;
+	margin: 0px auto 20px auto;
+	padding: 2px;
+	border: solid 1px #6D3A04;
+}
+div#main div#content div.news  h2{
+	font-size: 0.8em;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+div#main div#content div.news  p{
+	font-size: 0.8em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+div#main div#content div.news  p.signing{
+	text-align: right;
+	margin-top: 10px;
+}
+div#main div#content div.news  p.signing span.pseudo{
+	font-weight: bold;
+}
